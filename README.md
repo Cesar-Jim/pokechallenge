@@ -65,7 +65,7 @@ Bootstrap was used to style and present this basic app.
 
 ## Repo in GitHub
 
-Find the repository here: [tribeapp repo](https://github.com/Cesar-Jim/pokechallenge)
+Find the repository here: [pokechallenge repo](https://github.com/Cesar-Jim/pokechallenge)
 
 ---
 

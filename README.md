@@ -1,68 +1,72 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pokechallenge
 
-## Available Scripts
+![pokechallenge](https://www.dropbox.com/s/m1zd5v6uetbdjmt/pokechallenge.JPG?raw=true "pokechallenge screenshot")
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+Pokechallenge is an application that consumes an API called PokeAPI that resides at: https://pokeapi.co/
+Data is presented in pages where each page contains 20 clickable Pokemon cells. Once a Pokemon cell is clicked, a route is generated and individual data is presented.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Some basic animations where used for transitions.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Bootstrap was used to style and present this basic app.
 
-### `npm test`
+---
+## Libraries Used
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Development:
 
-### `npm run build`
+* axios@0.18.0
+* bootstrap@4.3.1
+* react@16.8.6
+* react-animated-css@1.0.5
+* react-router-dom@5.0.0
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Installation Procedure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone or download the aplication from [Pokechallenge in GitHub](https://github.com/Cesar-Jim/pokechallenge)
 
-### `npm run eject`
+(Terminal)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Go to the root directory of the application: cd .. /pokechallenge
+3. type "npm install" and hit enter
+4. type npm start to initialize the app and server
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+(Browser)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+5. Open your browser and type in the following in your navigation bar: localhost:3000
+6. All set!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## Main Challenges / Lessons Learned
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Revision of the API documentation took quite some time, especially for the pagination part.
+2. Used axios library for the first time and, which greatly helped to handle http requests. Not sure if its one of the bests one out there but quite handy.
+3. Implementation of async/await proved to work pretty well.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## What I have done differently?
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+1. Used Sass preprocessor to streamline styling. 
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## Next Steps and Future Goals
 
-### Making a Progressive Web App
+1. Beautify the application with CSS and probably implement GreenSock animations for greater impact
+2. Order the list using a convenient sorting algorithm 
+3. Once the data is sorted, add searching capabilities using binary seacrh. Which provides an efficient O(Log n)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+---
 
-### Advanced Configuration
+## Repo in GitHub
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Find the repository here: [tribeapp repo](https://github.com/Cesar-Jim/pokechallenge)
 
-### Deployment
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+By Cesar Jimenez

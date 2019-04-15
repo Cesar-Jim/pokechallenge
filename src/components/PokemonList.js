@@ -59,7 +59,10 @@ class PokemonList extends Component {
     return (
       <section>
         <div>
-          <p className="h1">Page {this.state.page}</p>
+          <div className="heading">
+            <p className="h1">Pokechallenge</p>
+          </div>
+          <p className="h3">Page {this.state.page}</p>
 
           {this.state.items ? (
             <div className="row">

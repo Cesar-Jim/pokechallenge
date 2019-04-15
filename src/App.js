@@ -3,12 +3,12 @@ import React, { Component } from "react";
 import "./App.css";
 
 // Libraries import:
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css"; // Used for styling and responsiveness
+import { Route } from "react-router-dom"; // Used for routing
 
 // Components import:
-import PokemonList from "./components/PokemonList";
-import PokemonDetail from "./components/PokemonDetail";
+import PokemonList from "./components/PokemonList"; // List of Pokemons in chunks of 20
+import PokemonDetail from "./components/PokemonDetail"; // Pokemon individual info
 
 class App extends Component {
   render() {

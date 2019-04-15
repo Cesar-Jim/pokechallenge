@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PokemonCell from "./PokemonCell";
-import axios from "axios";
+import axios from "axios"; // Used to handle http requests more easily
 
 /*This component is like a list that will hold 20 pokemon cells
   per page. Pagination is achieved by manipulating 'offset' in

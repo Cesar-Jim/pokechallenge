@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import axios from "axios";
 import { Animated } from "react-animated-css";
 
+/*This component show information about a specific pokemon.
+  The individual url is calculated appending index to the
+  base url*/
+
 class PokemonDetail extends Component {
   constructor(props) {
     super(props);
@@ -25,7 +29,7 @@ class PokemonDetail extends Component {
     const height = res.data.height;
     const weight = res.data.weight;
     const id = res.data.id;
-    this.setState({ name, height, weight, id });
+    this.setState({ name, height, weight, id }); // As an example I am only grabbing this info.
   }
 
   render() {

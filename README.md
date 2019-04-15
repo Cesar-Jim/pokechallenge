@@ -4,8 +4,8 @@
 
 ## Description
 
-Pokechallenge is an application that consumes an API called PokeAPI that resides at: https://pokeapi.co/
-Data is presented in pages where each page contains 20 clickable Pokemon cells. Once a Pokemon cell is clicked, a route is generated and individual data is presented.
+Pokechallenge is an application that consumes an API called PokeAPI, which resides at: https://pokeapi.co/
+Data is presented in pages, each one holding 20 clickable Pokemon cells. Once a Pokemon cell is clicked, a route is generated and individual pokemon data is presented.
 
 Some basic animations where used for transitions.
 

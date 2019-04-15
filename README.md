@@ -44,22 +44,22 @@ Bootstrap was used to style and present this basic app.
 ## Main Challenges / Lessons Learned
 
 1. Revision of the API documentation took quite some time, especially for the pagination part.
-2. Used axios library for the first time and, which greatly helped to handle http requests. Not sure if its one of the bests one out there but quite handy.
+2. Used "axios" library for the first time. I've learned that it is very useful to handle http requests. 
 3. Implementation of async/await proved to work pretty well.
 
 ---
 
 ## What I have done differently?
 
-1. Used Sass preprocessor to streamline styling. 
+1. Used Sass preprocessor to streamline styling.
 
 ---
 
 ## Next Steps and Future Goals
 
-1. Beautify the application with CSS and probably implement GreenSock animations for greater impact
-2. Order the list using a convenient sorting algorithm 
-3. Once the data is sorted, add searching capabilities using binary seacrh. Which provides an efficient O(Log n)
+1. Beautify the application with CSS and probably implement GreenSock animations for greater impact.
+2. Order the list using a convenient sorting algorithm.
+3. Once the data is sorted, add searching capabilities using binary seacrh. Which provides an efficient O(Log n) time complexity.
 
 ---
 

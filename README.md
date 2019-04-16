@@ -58,7 +58,7 @@ Bootstrap was used to style and present this basic app.
 ## Next Steps and Future Goals
 
 1. Beautify the application with CSS and probably implement GreenSock animations for greater impact.
-2. Order the list using a convenient sorting algorithm.
+2. Sort the Pokemon list using a convenient sorting algorithm.
 3. Once the data is sorted, add searching capabilities using binary seacrh. Which provides an efficient O(Log n) time complexity.
 
 ---
